@@ -65,7 +65,8 @@ class FinancialAgent:
         Processes the user input, calls tools if necessary, and returns the final text.
         """
         try:
-            # Warmup check (Ollama loads model into VRAM/RAM on first run)
+            # Warmup check
+            # Ollama loads model into VRAM/RAM on first run
             result = self.executor.invoke({"input": user_input})
             return result.get("output", "I couldn't generate a response.")
         except Exception as e:
