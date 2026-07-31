@@ -10,7 +10,7 @@ class DataAPIConfig:
         raise ValueError("FINNHUB_API_KEY not found in .env file!")
 
 class LLMConfig:
-    OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "granite3.1-dense:8b")
+    OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "granite3.1-dense:8b")  # Model name
     OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
     TEMPERATURE = 0.0
     CONTEXT_WINDOW = 8192
