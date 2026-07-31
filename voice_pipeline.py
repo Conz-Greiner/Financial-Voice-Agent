@@ -7,8 +7,6 @@ import torch
 from faster_whisper import WhisperModel
 from scipy.io.wavfile import write as write_wav
 from config import VoiceConfig
-
-# 🚀 KOKORO-TTS IMPORT
 from kokoro import KPipeline
 
 
