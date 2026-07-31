@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+ENV/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets - CRITICAL!
+finnhub_key
+*.key
+*.secret
+
+# Audio files
+*.wav
+temp_*.wav
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
