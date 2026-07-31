@@ -60,7 +60,8 @@ async def main():
                 print("👋 Goodbye!")
                 break
 
-            # Handle empty transcriptions (happens if VAD triggered on a loud noise)
+            # Handle empty transcriptions
+            # happens if VAD triggered on a loud noise
             if not user_text:
                 print("⚠️ Couldn't catch that. Try again.")
                 continue
