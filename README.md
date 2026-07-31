@@ -137,8 +137,4 @@ You can fine-tune the agent's behavior in `config.py`:
 
 ## 📜 License
 
-MIT License. Feel free to use, modify, and distribute this code for personal or commercial projects.
-
---- 
-
-*Built with ❤️ and ruthless engineering standards.*
+MIT License
