@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from langchain_core.tools import tool
 from config import DataAPIConfig
 
-# Persistent HTTP client for speed (keeps connections alive)
+# Persistent HTTP client for speed
 client = httpx.Client(timeout=5.0)
 
 

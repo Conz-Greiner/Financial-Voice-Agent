@@ -4,7 +4,7 @@ import sounddevice as sd
 from queue import Queue
 from config import AudioConfig
 
-sd.default.device[0] = 1  # <-- CHANGE '1' to the ID number of your actual mic
+sd.default.device[0] = 1
 
 
 class SileroVADRecorder:
